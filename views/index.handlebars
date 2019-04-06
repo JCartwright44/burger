@@ -2,3 +2,23 @@
      * Setup the `index.handlebars` to have the template that Handlebars can render onto.
 
      * Create a button in `index.handlebars` that will submit the user input into the database. --}}
+
+<h1>Burger Time!</h1>
+
+
+<h2>Burgers to eat!!!</h2>
+<ul>
+  {{each Burgers}}
+    <li>{{burger_name}}</li>
+  {{/each}}
+</ul>
+
+<h2>Burgers already eaten.</h2>
+
+
+
+<div class="form-group">
+  <label for="bur">Name your burger:</label>
+  <input type="text" id="bur" name="name">
+  <button type='submit' id='create-form'>Submit</button>
+</div>

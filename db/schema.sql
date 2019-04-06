@@ -4,3 +4,13 @@
 --      * **id**: an auto incrementing int that serves as the primary key.
 --      * **burger_name**: a string.
 --      * **devoured**: a boolean.
+
+CREATE DATABASE burgers_db;
+USE burgers_db;
+
+CREATE TABLE burgers
+(
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    burger_name VARCHAR(255) NOT NULL,
+    devoured BOOLEAN DEFAULT false
+);
