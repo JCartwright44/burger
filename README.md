@@ -1,1 +1,5 @@
-# burger
+# Burger Time!!
+
+This is an app that tracks burgers and your journey in discovering new burgers and eating them. There are three main sections on the web page. The center one titled "Add a burger" is the area where you begin. You can add the name of any burger you would like to eat, in the future. Once you click on 'Submit', this burger is put in the database as a burger to eat, and added to the 'Burgers to eat' section. Once you have found and eaten that burger, you can come back to the site and click on 'Devour'. This indicates that you have eaten the burger and enjoyed yourself. This burger is then added to the 'Burgers already eaten' section, which catalogues the burgers you have eaten in the past.
+
+This app uses the MCP (models, controllers, and public) file system to run the app, as well as using MYSQL as the database.
